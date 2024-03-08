@@ -1,0 +1,101 @@
+body {
+    font-family: roboto,'Gill Sans', Calibri,Verdana, sans-serif;
+    font-size: 120%;
+    background-color:#ECF0F1;
+}
+
+a[href="#main"]:first-child {
+    color: #00b200;
+    align-content: flex-start;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+.pictures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+ }
+
+.pictures img{
+    border: solid 15px whitesmoke;
+    margin: 20px;
+}
+
+ .pictures_dynamic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 50px;
+ }
+
+ .pictures_dynamic img{
+    border: solid 15px whitesmoke;
+    margin: 20px;
+}
+
+header {
+    align-content: center;
+    background-color: #FFC300;
+}
+
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    align-items: baseline;
+    font-size: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: ;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 10px;
+    color: #0dc5ff;
+    font-size: 120%;
+    font-weight: bolder;
+  
+}
+
+
+main {
+    background-color:#DAF7A6;
+    font-size: 150%;
+    color: black;
+}
+
+footer {
+    background-color:#FFC300;
+    color: black;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align:center ;
+    font-family:roboto,'Gill Sans', Calibri,Verdana, sans-serif; 
+    font-size: 300%;
+    color: #00B200 ;
+   font-style: italic;}
+
+p {
+    line-height:100% ;
+}
+
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: auto;
+}
